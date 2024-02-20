@@ -11,6 +11,42 @@ Lembrando:
 * Um exemplo de número primo é o número 11.
 
 [Resolução](main.c)
+
+> [!IMPORTANT]\
+> **Boas práticas**:
+>
+> * Comentários Descritivos:
+>   * Utilize comentários para descrever a finalidade das funções e trechos de código, tornando mais fácil para outros programadores entenderem o seu código.
+>
+> * Evitar o Uso de Magic Numbers:
+>   * Evite o uso de números mágicos diretamente no código.
+>   * Considere a possibilidade de criar constantes para valores específicos, como 1 e 2.
+>
+> * Limitação do Loop:
+>   * No trecho for (int i = 2; i <= num / 2; i++), a verificação pode ser otimizada para i * i <= num para reduzir a quantidade de iterações, melhorando a eficiência para números grandes.
+
+> [!WARNING]\
+> **Sugestões de melhoria**:
+>
+> * Validação de Entrada:
+>   * Adicione verificações para garantir que o usuário insira um número inteiro válido.
+>
+> * Usabilidade:
+>   * Considere fornecer mensagens de erro mais informativas ao lidar com entradas inválidas.
+>
+> * Utilização de Funções:
+>   * Pode ser benéfico dividir a lógica em funções mais curtas e focadas, facilitando a compreensão e manutenção do código.
+
+> [!NOTE]\
+> **Observações**:
+>
+> * Eficiência:
+>   * A abordagem atual pode não ser a mais eficiente para verificar se um número é primo, especialmente para números grandes.
+>   * Existem algoritmos mais otimizados, como o Crivo de Eratóstenes, que podem ser considerados para melhorar o desempenho.
+>
+> * Limitação de Precisão:
+>   * Para garantir maior precisão ao trabalhar com números grandes, pode-se considerar o uso de tipos de dados de maior precisão, como long long para armazenar números inteiros.
+
 <!-- Informações -->
 ## &#8505; Informações
 

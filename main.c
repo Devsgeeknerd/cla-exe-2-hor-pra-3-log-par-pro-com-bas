@@ -37,7 +37,7 @@ int main()
     }
     else
     {
-        printf("%d nao eh um numero primo.\n", numero);
+        printf("%d não eh um numero primo.\n", numero);
     }
 
     return 0;
